@@ -1,0 +1,186 @@
+/* ----------Font---------- */
+
+@font-face {
+    font-family: "Sourse sans pro";
+    src: url("../font/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* --------------globle-color------------ */
+  
+  :root{
+    --primary-background-color: #d80803;
+    --secondary-color: #000;
+    --border-white: #fff;
+    --border-red: #d80803;
+    --background-image: linear-gradient(to right, #9200F7 , #4A50F8);
+    --color: #fff;
+    --primary-color: #9200F7;
+
+  }
+  h1,h2,h3,h4,h5.p,a{
+    font-family: "Sourse sans pro";
+    
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  
+  .center{
+    text-align: center;
+  }
+
+  body{
+    background-color: #E5E5F9;
+  }
+  .checked{
+    color: #ff9f43;
+  }
+  .checked2{
+    color: #4A50F8;
+  }
+  .gray{
+    color: #707070;
+  }
+  .blue{
+    color: #33A0FF;
+  }
+  .black{
+    color: #000;
+  }
+  .purple{
+    color: #9200F7;
+  }
+  
+  img{
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  img:hover{
+    transform: scale(1.05);
+  }
+  
+
+
+
+
+
+  /* ----------Short mainbanner------- */
+
+  #os-shortbanner2{
+    background: url(../img/Home\ 3\ Slider.png) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 72px 0px;
+    
+  }
+  #os-shortbanner2 h1{
+    /* padding: 80px 0px 60px 0px; */
+    color: var(--color);
+  }
+  #os-shortbanner2 .rounded-3 {
+    border-radius: 1.3rem!important;
+}
+
+
+  
+
+
+
+  
+  
+/* -------os-team-------- */
+#os-team{
+  margin-bottom: 50px;
+}
+
+
+
+/* ------footer-------- */
+
+#os-footer{
+  padding: 50px 0px;
+ 
+  margin: 0px 0px 0px 0px;
+}
+
+ 
+
+
+   /* ------------Top button--------------- */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-image: var(--background-image);
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: var(--primary-color);
+
+}
+
+
+
+
+/* -------Responsive-------- */
+
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px){
+  .slick-arrow{
+    display: none;
+  }
+  #os-shortbanner2{
+    padding: 18px 0px;
+  }
+}
+@media (max-width: 425px) {
+  #os-shortbanner2{
+    padding: 8px 0px;
+  }
+  #os-shortbanner2 h1{
+    padding: 3px 0px;
+    font-size: 14px;
+  }
+  #os-shortbanner2 a{
+    
+    font-size: 7px;
+  }
+  #os-team .dsply{
+    display: none;
+}
+#os-team .list-group .p-1{
+   padding: .15rem !important;
+}
+#os-team .slider4 .slick-dots li button:before {
+  font-size: 11px !important;
+  color: #9200F7;
+  top: 30px;
+  position: unset;
+}
+#os-team .slider4 .slick-dots  {
+  position: relative;
+}
+}

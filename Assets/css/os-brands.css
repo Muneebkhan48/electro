@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Sourse sans pro";
+    src: url("../font/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* --------------globle-color------------ */
+  
+  :root{
+    --primary-background-color: #d80803;
+    --secondary-color: #000;
+    --border-white: #fff;
+    --border-red: #d80803;
+    --background-image: linear-gradient(to right, #9200F7 , #4A50F8);
+    --color: #fff;
+    --primary-color: #9200F7;
+
+  }
+  h1,h2,h3,h4,h5.p,a{
+    font-family: "Sourse sans pro";
+    
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  .center{
+    text-align: center;
+  }
+
+  body{
+    background-color: #E5E5F9;
+  }
+  .checked{
+    color: #ff9f43;
+  }
+  .checked2{
+    color: #4A50F8;
+  }
+  .gray{
+    color: #707070;
+  }
+  
+  img{
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  img:hover{
+    transform: scale(1.05);
+  }
+
+
+
+/* ---------os-brands--------- */
+
+#os-brands {
+    background-color: var(--color);
+    padding: 20px 0px;
+  }
+  #os-brands img{
+    height: 150px;
+    width: 150px;
+  }
+  #os-review h3, #os-review p{
+    color: #707070;
+  }
+  #os-brands .slick-prev:before{
+    font-family: none;
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: #707070;
+   
+  }
+  #os-brands .slick-next:before{
+    font-family: none;
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: #707070;
+   }
+   #os-brands .slick-initialized {
+    padding: 0px 40px !important;
+   }
+   #os-brands .slick-prev,
+   #os-brands .slick-next{
+    top: 40% !important;
+   }
+   
+
+
+/* -----responsive------- */
+
+
+   @media (max-width: 1024px) {
+    #os-brands .slider2 .slick-prev, #os-brands .slider2 .slick-next {
+        right: 5px;
+    }
+  }
+  @media (max-width: 768px){
+    #os-brands .slider2 .slick-prev {
+      left: -10px ;
+  }
+  }
+  @media (max-width: 425px) {
+    #os-brands .slider2 .slick-next {
+      right: 30px ;
+  }
+  #os-brands .slider2 .slick-prev {
+    left: 8px ;
+}
+#os-brands .slider2 .slick-dots{
+  position: unset;
+}
+#os-brands .slider2 .slick-dots li button:before{
+  font-size: 11px !important;
+    color: #9200F7;
+    top: 30px;
+    position: unset;
+}
+
+  }

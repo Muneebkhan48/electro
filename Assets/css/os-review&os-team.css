@@ -1,0 +1,67 @@
+/* --------customer reviews-------- */
+
+#os-review{
+    padding: 35px 0px;
+   }
+   #os-review span{
+    color: var(--primary-color);
+  }
+  #os-review .slick-slide{
+    text-align: center;
+  }
+/* ------os-teams------- */
+
+#os-team .slick-prev:before{
+  font-family: none;
+  font-size: 40px;
+  line-height: 1;
+  opacity: .75;
+  color: #707070;
+ 
+}
+#os-team .slick-next:before{
+  font-family: none;
+  font-size: 40px;
+  line-height: 1;
+  opacity: .75;
+  color: #707070;
+ }
+ #os-team .slick-initialized {
+  padding: 0px 40px !important;
+ }
+
+
+
+ @media (max-width: 1024px) {
+  .slider4 .slick-prev{
+      left: -10px;
+    }
+    .slider4  .slick-next{
+      right: 10px;
+    }
+}
+@media (max-width: 768px){
+  }
+@media (max-width: 425px) {
+  
+  #os-team .dsply{
+      display: none;
+  }
+  #os-team .list-group .p-1{
+     padding: .15rem !important;
+  }
+  .col-sm-6{
+    width: 50%;
+  }
+  
+  
+  #os-team .slider4 .slick-dots li button:before {
+    font-size: 11px !important;
+    color: #9200F7;
+    top: 30px;
+    position: unset;
+}
+  #os-team .slider4 .slick-dots  {
+    position: relative;
+}
+}

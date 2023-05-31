@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Sourse sans pro";
+    src: url("../font/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* --------------globle-color------------ */
+  
+  :root{
+    --primary-background-color: #d80803;
+    --secondary-color: #000;
+    --border-white: #fff;
+    --border-red: #d80803;
+    --background-image: linear-gradient(to right, #9200F7 , #4A50F8);
+    --color: #fff;
+    --primary-color: #9200F7;
+
+  }
+  h1,h2,h3,h4,h5.p,a{
+    font-family: "Sourse sans pro";
+    
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  .center{
+    text-align: center;
+  }
+
+  body{
+    background-color: #E5E5F9;
+  }
+  .checked{
+    color: #ff9f43;
+  }
+  .checked2{
+    color: #4A50F8;
+  }
+  .gray{
+    color: #707070;
+  }
+  
+  img{
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  img:hover{
+    transform: scale(1.05);
+  }
+
+
+
+/* --------footer--------- */
+
+#os-footer{
+    padding: 50px 20px;
+    background-color: var(--color);
+    margin: 50px 0px 0px 0px;
+   }
+   #os-footer input{
+    background-color: #fff;
+    color: #707070;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0;
+    padding: 11px;
+   }
+   #os-footer input:active{
+    border: 0;
+    border-radius: 0;
+
+   }
+   #os-footer .input-group-text{
+    background-image: var(--background-image);
+    color: var(--color);
+    padding: 10px;
+    color: var(--color);
+    border-radius: 0;
+   }
+   #os-footer a:hover{
+    color: #9200F7;
+   }
+   #os-footer i:hover{
+    color: #9200F7;
+   }
+
+   /* ----------Copy Writes--------- */
+  #copyrights{  
+    background-color: var(--primary-color);
+  }
+   #copyrights p{
+    color:var(--color);
+    font-family: "Sourse sans pro ";
+    margin-bottom: 0;
+    padding: 12px 0px;
+   }
+
+
+   @media (max-width: 1024px) {
+    
+  }
+  @media (max-width: 768px){
+    #os-footer h5{
+        font-size: 1rem;
+    }
+    #os-footer {
+        font-size: 12px;
+    }
+  }
+  @media (max-width: 425px) {
+     #os-footer .col-sm-6{
+    width: 50%;
+   }
+  }
+  @media (max-width: 320px) {
+     #os-footer .col-sm-6{
+    width: 100%;
+   }
+  }

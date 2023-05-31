@@ -1,0 +1,39 @@
+
+  /* -------os-music-exp----- */
+
+  #os-music-exp {
+    background-color: #fff;
+    padding: 20px 0px;
+  }
+  
+  #os-music-exp p{
+    color: #707070;
+    font-size: 18px;
+  }
+  #os-music-exp .content{
+    padding: 90px 0px 70px 0px;
+  }
+  #os-music-exp .btn1{
+    background-color: #9200F7;
+    border-radius: 50%;
+    padding: 12px 14px 12px 20px;
+    
+  }
+  #os-music-exp .btn1:hover{
+    opacity: 0.4;
+  }
+
+  @media (max-width: 1024px){
+    
+}
+  @media (max-width: 768px){
+    
+}
+  @media (max-width: 425px){
+    #os-music-exp .content{
+        padding: 90px 20px 70px 40px;
+      }
+}
+  @media (max-width: 320px){
+    
+}

@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "Sourse sans pro";
+    src: url("../font/Source_Sans_Pro/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* --------------globle-color------------ */
+  
+  :root{
+    --primary-background-color: #d80803;
+    --secondary-color: #000;
+    --border-white: #fff;
+    --border-red: #d80803;
+    --background-image: linear-gradient(to right #9200F7 ,#4A50F8, #15B0F8);
+    --color: #fff;
+    --primary-color: #9200F7;
+
+  }
+  h1,h2,h3,h4,h5.p,a{
+    font-family: "Sourse sans pro";
+    
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  .center{
+    text-align: center;
+  }
+
+  body{
+    background-color: #E5E5F9;
+  }
+  .checked{
+    color: #ff9f43;
+  }
+  .checked2{
+    color: #4A50F8;
+  }
+  .gray{
+    color: #707070;
+  }
+  .blue{
+    color: #33A0FF !important;
+  }
+  
+  img{
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  img:hover{
+    transform: scale(1.05);
+  }
+
+
+
+/* ------------Top button--------------- */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+
+  /* ----------Short mainbanner------- */
+
+  #os-shortbanner{
+    background: url(../img/Home\ 3\ Slider.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    
+  }
+  #os-shortbanner h1{
+    padding: 80px 0px 60px 0px;
+    color: var(--color);
+  }
+
+  /* ---------os-pageination------ */
+
+  #os-pageination{
+    margin: 40px 0px 40px 0px;
+    padding: 12px;
+    background: #F6F7F8;
+    font-size: 12px;
+  }
+  #os-pageination span a{
+    color: var(--primary-color);
+    
+  }
+  
+
+
+
+/* ---------cart--------- */
+#os-cart{
+    padding: 50px 0px ;
+    background-color: #fff;
+}
+#os-cart .table{
+  overflow-x: auto;
+}
+
+#os-cart .table th,tr{
+vertical-align: middle;
+font-size: 12px;
+}
+#os-cart .table .fa-xmark{
+    color: #d80803;
+}
+#os-cart .wrapper{
+  border: 1px solid #9200F7;
+  border-radius: 10px;
+  width: 118px;
+  padding: 8px;
+}
+#os-cart .wrapper a{
+  cursor: pointer;
+  color: var(--primary-color) !important;
+}
+#os-cart .wrapper input{
+  border: none;
+  width: 18px;
+}
+
+
+#os-cart .input-group-text {
+    border-radius: 6px;
+    color: white;
+    background-image: var(--background-image);
+    font-size: 12px;
+}
+#os-cart .form-control{
+    padding: 12px;
+}
+#os-cart .Check-Out{
+    background-image: var(--background-image);
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+#os-cart .Create-account{
+    background-image: var(--background-image);
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 8px;
+}
+#os-cart .os-total{
+    font-size: 12px;
+}
+#os-cart .fa-eye{
+  position: absolute;
+    top: 21px;
+    right: 11px;
+}
+#exampleModalToggle2 .modal-content{
+  padding: 110px 0px;
+}
+
+
+
+
+/* -------Model-------- */
+
+.modal-backdrop.show {
+  background-color: #9200F7;
+  opacity: 0.2;
+}
+
+
+/* ------footer-------- */
+
+#os-footer{
+    padding: 50px 0px;
+   
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+
+/* ----------------------- */
+
+@media (max-width: 1024px) {
+    
+}
+@media (max-width: 768px){
+  
+  }
+  
+
+@media (max-width: 425px) {
+    #os-cart .wrapper{
+        border: 1px solid #9200F7;
+    border-radius: 5px;
+    width: 83px;
+    padding: 1px;
+    }
+    #os-cart .table img{
+      display: none;
+    }
+}
